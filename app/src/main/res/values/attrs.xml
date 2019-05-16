@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--/*选择弹窗属性*/-->
+    <declare-styleable name="pickerview">
+        <attr name="wheelview_gravity">
+            <enum name="center" value="17" />
+            <enum name="left" value="3" />
+            <enum name="right" value="5" />
+        </attr>
+        <attr name="wheelview_textSize" format="dimension" />
+        <attr name="wheelview_textColorOut" format="color" />
+        <attr name="wheelview_textColorCenter" format="color" />
+        <attr name="wheelview_dividerColor" format="color" />
+        <attr name="wheelview_lineSpacingMultiplier" format="float" />
+    </declare-styleable>
+
+    <!--轮播图属性-->
+    <!--<declare-styleable name="MyViewPager">-->
+        <!--&lt;!&ndash;选中时的圆点图片&ndash;&gt;-->
+        <!--<attr name="lightDotRes" format="reference" />-->
+        <!--&lt;!&ndash;未选中时的圆点图片&ndash;&gt;-->
+        <!--<attr name="darkDotRes" format="reference" />-->
+        <!--&lt;!&ndash;圆点半径&ndash;&gt;-->
+        <!--<attr name="dotWidth" format="dimension" />-->
+        <!--&lt;!&ndash;页面切换时间间隔&ndash;&gt;-->
+        <!--<attr name="interval" format="integer" />-->
+    <!--</declare-styleable>-->
+
+    <declare-styleable name="CircleViewPager">
+        <!--页面切换时间间隔-->
+        <attr name="interval" format="integer" />
+        <attr name="isCanLoop" format="boolean" />
+        <attr name="isAutoPlay" format="boolean" />
+        <!--<attr name="indicator_gravity" format="integer"/>-->
+        <attr name="indicator_checked_color" format="color" />
+        <attr name="indicator_normal_color" format="color" />
+        <attr name="indicator_radius" format="dimension" />
+        <attr name="indicator_gravity" format="enum">
+            <enum name="center" value="0" />
+            <enum name="start" value="1" />
+            <enum name="end" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
